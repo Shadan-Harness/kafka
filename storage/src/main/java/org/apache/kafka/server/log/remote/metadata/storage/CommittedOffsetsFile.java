@@ -72,6 +72,7 @@ public class CommittedOffsetsFile {
     }
 
     public synchronized Map<Integer, Long> readEntries() throws IOException {
+        //hdkhgfjhgdkfhgdjhfgsjdhfghsdgfsdjhgfjsdhgfjhd
         List<Map.Entry<Integer, Long>> entries = checkpointFile.read();
         Map<Integer, Long> partitionToOffsets = new HashMap<>(entries.size());
         for (Map.Entry<Integer, Long> entry : entries) {
