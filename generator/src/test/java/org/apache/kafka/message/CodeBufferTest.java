@@ -32,6 +32,7 @@ public class CodeBufferTest {
 
     @Test
     public void testWrite() throws Exception {
+        //dhskhdgajhfgdjahsgsdjashgdjashgdjsahgdjashgdjasgd
         CodeBuffer buffer = new CodeBuffer();
         buffer.printf("public static void main(String[] args) throws Exception {%n");
         buffer.incrementIndent();
