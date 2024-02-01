@@ -4,7 +4,7 @@ This is a fork of Apache Kafka project. This project was used to demo the new ca
 
 Apache Kafka
 =================
-See our [web site](https://kafka.apache.org) for details on the project.h
+See our [web site](https://kafka.apache.org) for details on the project.hh
 
 You need to have [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed.
 
